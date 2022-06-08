@@ -1,11 +1,12 @@
-# Chrome Vue
+## Requirement
 
-Vue template for build Chrome extension
+- Node JS
 
-## Setting
+## Build Step
 
-Edit `public/manifest.json`
+```bash
+npm i
+npm run build
+```
 
-## Icon
-
-Change `public/icon.png`
+Build directory is `dist`
