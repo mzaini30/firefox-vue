@@ -11,7 +11,7 @@ specifiers:
   vite: ^2.9.7
   vite-plugin-md: ^0.13.1
   vite-plugin-pages: ^0.23.0
-  vite-plugin-vue-inspector: ^1.0.1
+  vite-plugin-vue-inspector: github:mzaini30/vite-plugin-vue-inspector
   vite-plugin-vue-layouts: ^0.6.0
   vite-plugin-yaml2: ^0.0.4
   vue: ^3.2.25
@@ -28,7 +28,7 @@ dependencies:
   unocss: 0.34.1_vite@2.9.8
   vite-plugin-md: 0.13.1_vite@2.9.8
   vite-plugin-pages: 0.23.0_vite@2.9.8
-  vite-plugin-vue-inspector: 1.0.1_vite@2.9.8
+  vite-plugin-vue-inspector: github.com/mzaini30/vite-plugin-vue-inspector/b95fc767c2def7976e9f6be9e0217c1936e0f0e4_vite@2.9.8
   vite-plugin-vue-layouts: 0.6.0_husqietd6xoepun2tc4v73afle
   vite-plugin-yaml2: 0.0.4
   vue: 3.2.33
@@ -1371,7 +1371,7 @@ packages:
     dev: false
 
   /has-flag/3.0.0:
-    resolution: {integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=}
+    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
     dev: false
 
@@ -1583,7 +1583,7 @@ packages:
     dev: false
 
   /isexe/2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: false
 
   /jiti/1.13.0:
@@ -2134,26 +2134,6 @@ packages:
       - supports-color
     dev: false
 
-  /vite-plugin-vue-inspector/1.0.1_vite@2.9.8:
-    resolution: {integrity: sha512-oJGYC3xuuWmN7QkOpTmVk8KAOnXUGsklUscTAnSzGdLKm73G5r1ZWVQmc28BHNrZBY/7RSorhpuXbcPrO+Kovw==}
-    peerDependencies:
-      vite: ^2.0.0
-    dependencies:
-      '@babel/core': 7.17.10
-      '@babel/plugin-syntax-import-meta': 7.10.4_@babel+core@7.17.10
-      '@babel/plugin-transform-typescript': 7.16.8_@babel+core@7.17.10
-      '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.17.10
-      '@vue/compiler-dom': 3.2.33
-      chalk: 4.1.2
-      esno: 0.14.1
-      kolorist: 1.5.1
-      magic-string: 0.26.2
-      shell-quote: 1.7.3
-      vite: 2.9.8
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /vite-plugin-vue-layouts/0.6.0_husqietd6xoepun2tc4v73afle:
     resolution: {integrity: sha512-7QX7o/NpCfs+hyXphwYfmPqAEQ6qd4uXsvI0VsovjGT2eCoEE5dMdP6L+uqqNWY4uqv7oCvtinecZmbzZv/9Rg==}
     peerDependencies:
@@ -2284,4 +2264,27 @@ packages:
   /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: false
+
+  github.com/mzaini30/vite-plugin-vue-inspector/b95fc767c2def7976e9f6be9e0217c1936e0f0e4_vite@2.9.8:
+    resolution: {tarball: https://codeload.github.com/mzaini30/vite-plugin-vue-inspector/tar.gz/b95fc767c2def7976e9f6be9e0217c1936e0f0e4}
+    id: github.com/mzaini30/vite-plugin-vue-inspector/b95fc767c2def7976e9f6be9e0217c1936e0f0e4
+    name: vite-plugin-vue-inspector
+    version: 1.0.1
+    peerDependencies:
+      vite: ^2.0.0
+    dependencies:
+      '@babel/core': 7.17.10
+      '@babel/plugin-syntax-import-meta': 7.10.4_@babel+core@7.17.10
+      '@babel/plugin-transform-typescript': 7.16.8_@babel+core@7.17.10
+      '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.17.10
+      '@vue/compiler-dom': 3.2.33
+      chalk: 4.1.2
+      esno: 0.14.1
+      kolorist: 1.5.1
+      magic-string: 0.26.2
+      shell-quote: 1.7.3
+      vite: 2.9.8
+    transitivePeerDependencies:
+      - supports-color
     dev: false
